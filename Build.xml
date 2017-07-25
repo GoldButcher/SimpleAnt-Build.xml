@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 定义一个工程，默认任务为warFile。 -->
-<project name="Visit" default="warFile" basedir="./bowei">
-
-    <!-- 定义属性，打成war包的名称。 -->
-    <property name="warFileName" value="bowei.war"></property>
-
-    <!-- 定义路径，编译java文件时用到的jar包。 -->
-    <path id="project.lib">
-        <?xml version="1.0" encoding="UTF-8"?>
-
         <!-- 定义一个工程，默认任务为warFile。 -->
         <project name="Visit" default="warFile" basedir="./bowei">
 
